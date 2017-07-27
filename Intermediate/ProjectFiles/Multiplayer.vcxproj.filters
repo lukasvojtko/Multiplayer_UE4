@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Multiplayer.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{984F554D-30A3-4830-A97D-FA3641189850}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Multiplayer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MultiplayerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{6AD3F8BA-1801-4C2B-A407-6CA4E24B3206}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Multiplayer">
+      <UniqueIdentifier>{C379CDD2-7E2A-4C87-AB12-FFD7B619A894}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Multiplayer\Multiplayer.Build.cs">
+      <Filter>Source\Multiplayer</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Multiplayer\Multiplayer.cpp">
+      <Filter>Source\Multiplayer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Multiplayer\Multiplayer.h">
+      <Filter>Source\Multiplayer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Multiplayer\MultiplayerCharacter.cpp">
+      <Filter>Source\Multiplayer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Multiplayer\MultiplayerCharacter.h">
+      <Filter>Source\Multiplayer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Multiplayer\MultiplayerGameMode.cpp">
+      <Filter>Source\Multiplayer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Multiplayer\MultiplayerGameMode.h">
+      <Filter>Source\Multiplayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Multiplayer\Pickup.h">
+      <Filter>Source\Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Multiplayer\BatteryPickup.h">
+      <Filter>Source\Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Multiplayer\SpawnVolume.h">
+      <Filter>Source\Multiplayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Multiplayer\Pickup.cpp">
+      <Filter>Source\Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Multiplayer\BatteryPickup.cpp">
+      <Filter>Source\Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Multiplayer\SpawnVolume.cpp">
+      <Filter>Source\Multiplayer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

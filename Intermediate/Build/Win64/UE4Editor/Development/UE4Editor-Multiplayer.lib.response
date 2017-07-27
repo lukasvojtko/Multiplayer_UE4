@@ -1,0 +1,19 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Multiplayer.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\lukasvojtko\Documents\Unreal Projects\Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Multiplayer\BatteryPickup.cpp.obj"
+"C:\Users\lukasvojtko\Documents\Unreal Projects\Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Multiplayer\Multiplayer.cpp.obj"
+"C:\Users\lukasvojtko\Documents\Unreal Projects\Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Multiplayer\MultiplayerCharacter.cpp.obj"
+"C:\Users\lukasvojtko\Documents\Unreal Projects\Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Multiplayer\MultiplayerGameMode.cpp.obj"
+"C:\Users\lukasvojtko\Documents\Unreal Projects\Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Multiplayer\Pickup.cpp.obj"
+"C:\Users\lukasvojtko\Documents\Unreal Projects\Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Multiplayer\SpawnVolume.cpp.obj"
+"C:\Users\lukasvojtko\Documents\Unreal Projects\Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Multiplayer\Multiplayer.generated.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Multiplayer\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\lukasvojtko\Documents\Unreal Projects\Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Multiplayer.lib"
